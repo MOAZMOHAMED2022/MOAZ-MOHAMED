@@ -1,0 +1,333 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <style>
+    body{
+      background-color : #112B3C;
+    }  
+  </style> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+  <link rel="stylesheet" href="style.css"> 
+  <title>MOAZ MOHAMED</title> 
+ <style type="text/css" id="dcoder_stylesheet">@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #EFEFEF;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px ;
+}
+.logo{
+  text-decoration: none;
+  color: #F66B0E;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.navigation a{
+  color: #F66B0E;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+  color: #030653;
+}
+section {
+  padding: 100px 150px;
+}
+.main{
+  width: 100%;
+  min-hight: 100vh;
+  display: flex;
+  align-items: center;
+  
+}
+.main h2 {
+  color: #EFEFEF;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.main h2 span{
+  display: inline-block;
+  margin-top: 10px;
+  color: #F66B0E;
+  font-size:2em;
+  font-weight: 700;
+}
+.main h3{
+  color: #EFEFEF;
+  font-size: 1.3em;
+  font-weight:700;
+  latter-spaceing: 1px;
+  margin-top: 10px;
+  margin-bottom:  30px;
+}
+.main-btn{
+  color: #EFEFEF;
+  background-color: #5584AC;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weigh: 700px;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spaceing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;  
+  transition: 0.7s ease; 
+}
+.main-btn:hover {
+  background-color: #F66B0E;
+  transform: scale(1.1);
+}
+.social-icons a {
+  color: #EFEFEF;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #F66B0E;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.card{
+  background-color: #EFEFEF;
+  width: 21.5em;
+  box-shadow: 0 5px 25px rgpa(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.icon{
+  color: #F66B0E;
+  font-size: 8em;
+  text-align: center;
+}
+.info {
+  text-align: center ;
+}
+.info h3{
+  color: #112B3C;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+.projects {
+  background-color: #112B3C;
+}
+.projects .content{
+  margin-top: 30px;
+}
+.project-card{
+  background-color: #F66B0E;
+  border: 2px solid #F66B0E;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 25px;
+  transition: 0.7s ease;
+}
+.project-card:hover {
+  transform: scale(1.1);
+}
+.project-card:hover .project-image {
+  opacity: 0.9;
+}
+
+.project-image img{
+  width: 100%;
+}
+
+.project-info{
+  padding:  1em;
+}
+.project-category {
+  font-size: 0.8em;
+  color: #EFEFEF;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.more-details{
+  text-decoration: none;
+  color: #112B3C;
+}
+.more-details:hover {
+  color: #030653;
+}
+.contact .icon{
+  font-size: 1.5em;
+}
+.footer{
+  background-color: #EFEFEF;
+  color: #F66B0E;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-tittle {
+  font-size:1.3em;
+  font-weight: 600;
+  
+}
+.footer-tittle span {
+  color: #112B3C;
+}
+.footer .social-icons a{
+  color: #F66B0E;
+}</style></head> 
+ <body> 
+  <header> <a href="#" class="logo">MOAZ MOHAMED</a> 
+   <nav class="navigation"> <a href="#services">Services</a> <a href="#projects">Projects</a> <a href="#contact">Contact</a> 
+   </nav> 
+  </header> 
+  <section class="main"> 
+   <div> 
+    <h2>Hello, I'm MOAZ<br><span>MOTION GRAPHIC DESIGNER</span></h2> 
+    <h3>I make Ads , Explainer videos</h3> <a href="#projects" class="main-btn">view my work</a> 
+    <div class="social-icons"> <a href="http://be.net/moazashour3ea6"><i class="fa-brands fa-behance-square"></i></a> <a href="https://www.facebook.com/profile.php?id=100033748579570"><i class="fa-brands fa-facebook-square"></i></a> <a href="http://wa.me/+201112067055?text"><i class="fa-brands fa-whatsapp-square"></i></a> <a href="https://youtube.com/channel/UCu8YNEBSOcrCPEUYnKfYZow"><i class="fa-brands fa-youtube-square"></i></a> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="projects" id="services"> 
+   <h2 class="title">Services</h2> 
+   <div class="content"> 
+    <div class="card"> 
+     <div class="icon"> <i class="fa-solid fa-video"></i> 
+     </div> 
+     <div class="info"> 
+      <h3>Making videos</h3> 
+      <p>making a Explainervideos , ads , logo animaton </p> 
+     </div> 
+    </div> 
+    <div class="content"> 
+     <div class="card"> 
+      <div class="icon"> <i class="fa-solid fa-video"></i> 
+      </div> 
+      <div class="info"> 
+       <h3>Making Wepsites </h3> 
+       <p>making your wepsite </p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="projects" id="projects"> 
+   <h2 class="title">Projects</h2> 
+   <div class="content"> 
+    <div class="project-card"> 
+     <div class="project-image"> 
+      <img src="https://l.top4top.io/p_23206slj70.png"> 
+     </div> 
+     <div class="project-info"> 
+      <p class="project-category">motion graghicsvideo</p> <strong class="project-title"> <span>Explainer Video</span> <a href="https://youtu.be/JCwjRa5hATg" class="more-details">More details</a> </strong> 
+     </div> 
+    </div> 
+    <div class="project-card"> 
+     <div class="project-image"> 
+      <img src="https://f.top4top.io/p_23247f8tt0.png"> 
+     </div> 
+     <div class="project-info"> 
+      <p class="project-category">motion graghicsvideo</p> <strong class="project-title"> <span>Explainer Video</span> <a href="https://youtu.be/hysP1h4ZHdc" class="more-details">More details</a> </strong> 
+     </div> 
+    </div> 
+    <div class="project-card"> 
+     <div class="project-image"> 
+      <img src="https://d.top4top.io/p_2324myjtm9.png"> 
+     </div> 
+     <div class="project-info"> 
+      <p class="project-category">motion graghicsvideo</p> <strong class="project-title"> <span>Explainer Video</span> <a href="https://youtu.be/x903RzlbgNE" class="more-details">More details</a> </strong> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+   <section class="projects" id="projects"> 
+   <h2 class="title">Logo Animation</h2> 
+   <div class="content"> 
+    <div class="project-card"> 
+     <div class="project-image"> 
+      <img src="https://k.top4top.io/p_2324tdoct0.png"> 
+     </div> 
+     <div class="project-info"> 
+      <p class="project-category">Logo Animation for YouTube channel</p> <strong class="project-title"> <span>Logo Animation</span> <a href="https://youtu.be/r8dA6TDBX1Y" class="more-details">More details</a> </strong> 
+     </div> 
+    </div> 
+        <div class="project-card"> 
+     <div class="project-image"> 
+      <img src="https://l.top4top.io/p_23243otdm0.png"> 
+     </div> 
+     <div class="project-info"> 
+      <p class="project-category">Logo Animation for Dar Alhekma</p> <strong class="project-title"> <span>Logo Animation</span> <a href="https://youtu.be/XrTX7j8CeDs" class="more-details">More details</a> </strong> 
+     </div>
+     </div>
+         <div class="project-card"> 
+     <div class="project-image"> 
+      <img src="https://c.top4top.io/p_2324rpsa60.png"> 
+     </div> 
+     <div class="project-info"> 
+      <p class="project-category">Personal intro</p> <strong class="project-title"> <span>Logo Animation</span> <a href="https://youtu.be/GNZIehpdS6s" class="more-details">More details</a> </strong> 
+     </div>
+      </div> 
+    </div></section>
+  <section class="cards contact" id="contact"> 
+   <h2 class="title"> For business</h2> 
+   <div class="content"> 
+    <div class="card"> 
+     <div class="icon"> <i class="fa-solid fa-phone"></i> 
+     </div> 
+     <div class="info"> 
+      <h3>phone</h3> 
+      <p>+201112067055 </p> 
+     </div> 
+    </div> 
+    <div class="content"> 
+     <div class="card"> 
+      <div class="icon"> <i class="fa-solid fa-envelope"></i> 
+      </div> 
+      <div class="info"> 
+       <h3>Email </h3> 
+       <p>moaz.ashour.555@gmail.com </p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer class="footer"> 
+   <p class="footer-tittle">Developed by <span>MOAZ MOHAMED</span></p> 
+   <div class="social-icons"> <a href="http://be.net/moazashour3ea6"><i class="fa-brands fa-behance-square"></i></a> <a href="https://www.facebook.com/profile.php?id=100033748579570"><i class="fa-brands fa-facebook-square"></i></a> <a href="http://wa.me/+201112067055?text"><i class="fa-brands fa-whatsapp-square"></i></a> <a href="https://youtube.com/channel/UCu8YNEBSOcrCPEUYnKfYZow"><i class="fa-brands fa-youtube-square"></i></a> 
+   </div> 
+  </footer> 
+ 
+</body></html>
